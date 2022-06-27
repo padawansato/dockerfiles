@@ -1,7 +1,7 @@
 FROM python:3.9-slim-buster
 
 RUN apt-get update \
-    && apt-get install build-essential -y \
+    && apt-get install build-essential git -y \
     && apt-get clean
 
 RUN pip install --upgrade --no-cache-dir \
@@ -10,7 +10,7 @@ RUN pip install --upgrade --no-cache-dir \
     jupyter \
     jupyter-console \
     jupyterlab_code_formatter \
-    autopep8
+    autopep8 
 
 RUN pip install --no-cache-dir \
     torch==1.9.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
@@ -18,7 +18,8 @@ RUN pip install --no-cache-dir \
     neologdn \
     tqdm \
     torch==1.9.0+cpu \
-    transformers['ja']==4.8.2 
+    sentencepiece \
+    transformers['ja']==4.8.2
 
 RUN jupyter notebook --generate-config -y \
   && sed -i \
