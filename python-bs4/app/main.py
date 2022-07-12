@@ -31,8 +31,8 @@ def restart_tor():
     required=False
 )
 def scraping(seq):
-    logging.config.fileConfig("config/logging.ini")
-    logging.getLogger("__name__")
+    # logging.config.fileConfig("config/logging.ini")
+    # logging.getLogger("__name__")
 
     for i in range(5):
         
@@ -44,7 +44,8 @@ def scraping(seq):
         
         wait()
 
-        logging.info(f'[{seq}]Current IP address is {current_ip}')
+        # logging.info(f'[{seq}]Current IP address is {current_ip}')
+        print(f'[{seq}]Current IP address is {current_ip}')
 
 
 if __name__ == "__main__":
