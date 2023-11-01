@@ -1,0 +1,212 @@
+{
+    "updatedAt": "2020-03-10 04:33",
+    "stats": [
+        {
+            "teamId": "Juventus",
+            "played": 26,
+            "won": 20,
+            "lost": 3,
+            "draw": 3,
+            "scored": 50,
+            "against": 24
+        },
+        {
+            "teamId": "Lazio",
+            "played": 26,
+            "won": 19,
+            "lost": 5,
+            "draw": 2,
+            "scored": 60,
+            "against": 23
+        },
+        {
+            "teamId": "Inter",
+            "played": 25,
+            "won": 16,
+            "lost": 6,
+            "draw": 3,
+            "scored": 49,
+            "against": 24
+        },
+        {
+            "teamId": "Barcelona",
+            "played": 27,
+            "won": 18,
+            "lost": 5,
+            "draw": 4,
+            "scored": 63,
+            "against": 31
+        },
+        {
+            "teamId": "Atalanta",
+            "played": 25,
+            "won": 14,
+            "lost": 6,
+            "draw": 5,
+            "scored": 70,
+            "against": 34
+        },
+        {
+            "teamId": "Roma",
+            "played": 26,
+            "won": 13,
+            "lost": 6,
+            "draw": 7,
+            "scored": 51,
+            "against": 35
+        },
+        {
+            "teamId": "Napoli",
+            "played": 26,
+            "won": 11,
+            "lost": 6,
+            "draw": 9,
+            "scored": 41,
+            "against": 36
+        },
+        {
+            "teamId": "Milan",
+            "played": 26,
+            "won": 10,
+            "lost": 6,
+            "draw": 10,
+            "scored": 28,
+            "against": 34
+        },
+        {
+            "teamId": "Verona",
+            "played": 25,
+            "won": 9,
+            "lost": 8,
+            "draw": 8,
+            "scored": 29,
+            "against": 26
+        },
+        {
+            "teamId": "Parma",
+            "played": 25,
+            "won": 10,
+            "lost": 5,
+            "draw": 10,
+            "scored": 32,
+            "against": 31
+        },
+        {
+            "teamId": "Bologna",
+            "played": 26,
+            "won": 9,
+            "lost": 7,
+            "draw": 10,
+            "scored": 38,
+            "against": 42
+        },
+        {
+            "teamId": "Sassuolo",
+            "played": 25,
+            "won": 9,
+            "lost": 5,
+            "draw": 11,
+            "scored": 41,
+            "against": 39
+        },
+        {
+            "teamId": "Cagliari",
+            "played": 25,
+            "won": 8,
+            "lost": 8,
+            "draw": 9,
+            "scored": 41,
+            "against": 40
+        },
+        {
+            "teamId": "Chelsea",
+            "played": 26,
+            "won": 7,
+            "lost": 9,
+            "draw": 10,
+            "scored": 32,
+            "against": 36
+        },
+        {
+            "teamId": "Fiorentina",
+            "played": 26,
+            "won": 7,
+            "lost": 9,
+            "draw": 10,
+            "scored": 32,
+            "against": 36
+        },
+        {
+            "teamId": "Udinese",
+            "played": 26,
+            "won": 7,
+            "lost": 7,
+            "draw": 12,
+            "scored": 21,
+            "against": 37
+        },
+        {
+            "teamId": "Liverpool",
+            "played": 29,
+            "won": 27,
+            "lost": 1,
+            "draw": 1,
+            "scored": 66,
+            "against": 21
+        },
+        {
+            "teamId": "Torino",
+            "played": 25,
+            "won": 8,
+            "lost": 3,
+            "draw": 14,
+            "scored": 28,
+            "against": 45
+        },
+        {
+            "teamId": "Sampdoria",
+            "played": 25,
+            "won": 7,
+            "lost": 5,
+            "draw": 13,
+            "scored": 28,
+            "against": 44
+        },
+        {
+            "teamId": "Genoa",
+            "played": 26,
+            "won": 6,
+            "lost": 7,
+            "draw": 13,
+            "scored": 31,
+            "against": 47
+        },
+        {
+            "teamId": "Lecce",
+            "played": 26,
+            "won": 6,
+            "lost": 7,
+            "draw": 13,
+            "scored": 34,
+            "against": 56
+        },
+        {
+            "teamId": "SPAL",
+            "played": 26,
+            "won": 5,
+            "lost": 3,
+            "draw": 18,
+            "scored": 20,
+            "against": 44
+        },
+        {
+            "teamId": "Brescia",
+            "played": 26,
+            "won": 4,
+            "lost": 4,
+            "draw": 18,
+            "scored": 22,
+            "against": 49
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+version: '3'
+services:
+  # Nginx Container
+  nginx:
+    build: ./docker/nginx/
+    ports:
+      - "80:80"
+    volumes:
+      - ./public:/public
+      - ./log/nginx:/var/log/nginx
+    depends_on:
+      - php
+    networks:
+      - my_network
+  
+  # PHP Container
+  php:
+    build:
+      context: ./docker/php/
+    working_dir: /public
+    volumes:
+      - ./public:/public
+      - ./log/php-fpm:/var/log/php-fpm
+    environment:
+      PHP_IDE_CONFIG: serverName=training_server
+    depends_on:
+      - mysql
+    networks:
+      - my_network
+
+  # Myql Container
+  mysql:
+    platform: linux/x86_64
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      TZ: 'Asia/Tokyo'
+      MYSQL_DATABASE: training_db
+    ports:
+      - 33306:3306
+    volumes:
+      - ./docker/mysql/docker.cnf:/etc/mysql/conf.d/docker.cnf
+      - mysql_data:/var/lib/mysql
+    networks:
+      - my_network
+
+volumes:
+  mysql_data:
+    driver: 'local'
+      
+networks:
+  my_network:
+    driver: bridge
+ 

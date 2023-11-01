@@ -1,0 +1,9 @@
+# IDE
+/.idea
+
+# mac
+.DS_Store
+
+# log
+/log/
+/tmp/

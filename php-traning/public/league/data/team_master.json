@@ -1,0 +1,112 @@
+[
+    {
+        "teamId": "Juventus",
+        "name": "ユベントス",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Lazio",
+        "name": "ラツィオ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Inter",
+        "name": "インテルミラノ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Atalanta",
+        "name": "アタランタ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Roma",
+        "name": "ローマ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Napoli",
+        "name": "ナポリ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Milan",
+        "name": "ＡＣミラン",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Verona",
+        "name": "ベローナ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Parma",
+        "name": "パルマ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Bologna",
+        "name": "ボローニャ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Sassuolo",
+        "name": "サッスオロ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Cagliari",
+        "name": "カリャリ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Chelsea",
+        "name": "チェルシー",
+        "leagueId": "Premier"
+    },
+    {
+        "teamId": "Fiorentina",
+        "name": "フィオレンティナ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Udinese",
+        "name": "ウディネーゼ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Torino",
+        "name": "トリノ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Sampdoria",
+        "name": "サンプドリア",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Genoa",
+        "name": "ジェノア",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Liverpool",
+        "name": "リバプール",
+        "leagueId": "Premier"
+    },
+    {
+        "teamId": "Lecce",
+        "name": "レッチェ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "SPAL",
+        "name": "ＳＰＡＬ",
+        "leagueId": "SeriaA"
+    },
+    {
+        "teamId": "Brescia",
+        "name": "ブレシア",
+        "leagueId": "SeriaA"
+    }
+]

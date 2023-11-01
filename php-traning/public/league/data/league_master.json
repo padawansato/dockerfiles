@@ -1,0 +1,14 @@
+[
+    {
+        "leagueId": "Premier",
+        "name": "プレミアリーグ"
+    },
+    {
+        "leagueId": "SeriaA",
+        "name": "セリエＡ"
+    },
+    {
+        "leagueId": "LaLiga",
+        "name": "リーガエスパニョーラ"
+    }
+]

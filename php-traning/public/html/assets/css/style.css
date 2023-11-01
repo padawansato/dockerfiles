@@ -1,0 +1,66 @@
+body {
+    background-color : gray;
+}
+
+#container {
+    padding : 10px;
+    background-color : white;
+    margin : 50px auto 0;
+    max-width : 1050px;
+    min-width : 750px;
+    border-radius : 5px;
+    box-shadow : 4px 4px 0 0 #c5c5c5;
+}
+
+.title {
+    float : left;
+    clear : left;
+}
+
+.logo {
+    text-align : right;
+}
+
+.logo_img {
+    width : 250px;
+    clear : right;
+}
+
+.titleline {
+    text-align : left;
+    width : 1000px;
+    height : 5px;
+    background : linear-gradient(to right, #214b7f, #f0f8ff);
+}
+
+.headline {
+    font-size : 25px;
+    color : deeppink;
+    font-weight : bold;
+    clear : left;
+}
+
+.text {
+    font-size : 25px;
+}
+
+.introduction_img {
+    text-align : right;
+    float : right;
+    width : 340px;
+    clear : left;
+    
+}
+
+.margin {
+    padding-top : 70px;
+}
+
+.affiliation {
+    font-size : 18px;
+    color : blueviolet;
+    font-weight : bold;
+    vertical-align : bottom;
+    padding-top : 10px;
+    text-align : right;
+}
