@@ -1,0 +1,12 @@
+version: '3'
+services:
+  terraform:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    image: terraform
+    working_dir: /root/terraform/
+    volumes:
+      - .:/root/terraform/
+    env_file: .env
