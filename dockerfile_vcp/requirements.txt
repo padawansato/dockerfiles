@@ -1,0 +1,9 @@
+transformers
+matplotlib
+seaborn
+scikit-learn
+japanize_matplotlib
+spacy
+ginza
+ja_ginza
+sentencepiece

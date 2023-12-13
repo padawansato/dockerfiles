@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    build: ./
+    volumes:
+    - ./:/workspace
+    ports:
+      - 8870:8888
+    # for GPU
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
