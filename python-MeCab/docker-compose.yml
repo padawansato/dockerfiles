@@ -1,16 +1,12 @@
-version: '3'
+version: "3.7"
 services:
-  ex_nlp:
-    build: .
-    user: root
+  jupyter-notebook:
+    image: mecab-base-notebook
+    container_name: mecab-notebook
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
-      - 8888:8888
-    environment:
-      - TZ=Asia/Tokyo
-      - PYTHONPATH=/home/jovyan
+      - "8889:8888"
     volumes:
-      - ./:/home/jovyan
-    #working_dir: /home/jovyan/work/
-    privileged: true
-    #restart: unless-stopped
-    command:  jupyter lab --NotebookApp.token='' --ip=0.0.0.0 --no-browser --allow-root --port=8888
+      - ./work:/home/jovyan/work
